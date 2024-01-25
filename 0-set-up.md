@@ -2,8 +2,7 @@
 
 ## Step 0.1: Registering a GitHub account
 
-If you already have a GitHub account you'd like to use, log in to that account.<br>
-Tip: It would be helpful to register Red Hat email id to your GitHub for easy workflow. [Add Second Email to GitHub](https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/adding-an-email-address-to-your-github-account)
+If you already have a GitHub account you'd like to use, log in to that account.
 
 Otherwise, register a GitHub account at <https://github.com/>.
 
@@ -81,7 +80,7 @@ If the command above doesn't show your name and email, you will need to configur
 
 ```
 git config --global user.name "Jane Doe"
-git config --global user.email "jane@redhat.com"
+git config --global user.email "jane@bu.edu"
 ```
 
 ## Step 0.6 Configure SSH connection with GitHub (if not already configured)

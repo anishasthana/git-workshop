@@ -1,4 +1,5 @@
 Please enter your names and email ids below:
 Anish asthana@bu.edu
+Miles mmyman@bu.edu
 Jiayang jykuang@bu.edu
 Problems merge_conflict

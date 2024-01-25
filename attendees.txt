@@ -4,4 +4,5 @@ Owen omariani@bu.edu
 Jin Young jybang@bu.edu	
 Miles mmyman@bu.edu
 Jiayang jykuang@bu.edu
+Rehan rdsam@bu.edu
 Problems merge_conflict

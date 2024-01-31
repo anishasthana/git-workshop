@@ -96,10 +96,10 @@ or
 git rebase -i <commit id of commit picked>
 ```
 
-A nano or vi editor would be opened, with list of commits.<br>
+By default, a vi/vim editor will be opened with a list of commits.<br>
 ![PACSPull Plugin](images/git-rebase-squash.png)<br>
-Pick the first commit and squash the rest of it.<br>
-Save it.<br>
+Pick the first commit and squash the rest of it. To make edits in vi, you will need to hit `i` once.<br>
+Save it. To do so in vi, simply hit `esc` followed by typing `:wq`<br>
 choose the commit message for the squashed commit.<br>
 Now, Use `git log` to check the commits in the git history again.
 
@@ -224,3 +224,7 @@ You can check that your changes made it to remote by looking on your GitHub prof
 ## Bonus Step
 
 If you have extra time, delete your new branch to clean up. Make sure you are on the main branch with `git branch` (or change to master with `git checkout main`) because you cannot delete a branch you're currently on. Then delete the other branch with `git branch -d my-new-branch`. Check that the delete worked by using `git branch` to list all local branches.
+
+### Vim Tutorial
+
+If you're interested in learning more about vim, an interactive tutorial can be found [here](https://www.openvim.com/). Feel free to run through this at your own convenience. 

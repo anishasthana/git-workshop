@@ -24,7 +24,11 @@ Go to Applications → Utilities → Terminal to open a terminal.
 
 ### Windows
 
-You will be using Windows PowerShell. In the Start menu, search for PowerShell.
+Windows
+Most of this workshop assumes usage of a Unix-like terminal. People using Mac or Linux already have this out of the box, but Windows users will need to install the Windows Subsystem for Linux. Microsoft has a guide for that [here](https://learn.microsoft.com/en-us/windows/wsl/install). Follow that guide to install Ubuntu Linux on your Windows machine. (This will be handy to have later in your CS/data science career too!)
+
+A tip: when performing initial Ubuntu setup, you will be prompted for a password for your Linux user account. This isn't related to your Windows password, and isn't especially security-sensitive, so use something simple and easy to remember! You will need to use this password fairly frequently.
+
 
 ## Step 0.3 Checking git version
 
@@ -141,6 +145,8 @@ If you don't already have an SSH key, you must generate a new SSH key. If you're
 3. Voila! The SSH connection with GitHub is setup.
 
 ## Step 0.7 Configure commit signature with GitHub (if not already configured)
+
+### NOTE: This step is optional. If you don't already have GPG on your system, run through the set up outside of workshop hours.
 
 You can sign your work locally using GPG or S/MIME. GitHub will verify these signatures so other people will know that your commits come from a trusted source. GitHub will automatically sign commits you make using the GitHub web interface.[GitHub Docs](https://help.github.com/en/github/authenticating-to-github/managing-commit-signature-verification)
 
